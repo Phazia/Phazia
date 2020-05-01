@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7099BED6245CBD9800DBEEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099BED5245CBD9800DBEEFF /* AppDelegate.swift */; };
+		7099BED8245CBD9800DBEEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099BED7245CBD9800DBEEFF /* SceneDelegate.swift */; };
+		7099BEDA245CBD9800DBEEFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099BED9245CBD9800DBEEFF /* ContentView.swift */; };
+		7099BEDC245CBDB200DBEEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7099BEDB245CBDB200DBEEFF /* Assets.xcassets */; };
+		7099BEDF245CBDB200DBEEFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7099BEDE245CBDB200DBEEFF /* Preview Assets.xcassets */; };
+		7099BEE2245CBDB200DBEEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7099BEE0245CBDB200DBEEFF /* LaunchScreen.storyboard */; };
+		7099BEED245CBDB200DBEEFF /* PhaziaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099BEEC245CBDB200DBEEFF /* PhaziaTests.swift */; };
+		7099BEF8245CBDB200DBEEFF /* PhaziaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099BEF7245CBDB200DBEEFF /* PhaziaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7099BEE9245CBDB200DBEEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7099BECA245CBD9700DBEEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7099BED1245CBD9800DBEEFF;
+			remoteInfo = Phazia;
+		};
+		7099BEF4245CBDB200DBEEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7099BECA245CBD9700DBEEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7099BED1245CBD9800DBEEFF;
+			remoteInfo = Phazia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7099BED2245CBD9800DBEEFF /* Phazia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phazia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7099BED5245CBD9800DBEEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7099BED7245CBD9800DBEEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7099BED9245CBD9800DBEEFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7099BEDB245CBDB200DBEEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7099BEDE245CBDB200DBEEFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7099BEE1245CBDB200DBEEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7099BEE3245CBDB200DBEEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7099BEE8245CBDB200DBEEFF /* PhaziaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhaziaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7099BEEC245CBDB200DBEEFF /* PhaziaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaziaTests.swift; sourceTree = "<group>"; };
+		7099BEEE245CBDB200DBEEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7099BEF3245CBDB200DBEEFF /* PhaziaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhaziaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7099BEF7245CBDB200DBEEFF /* PhaziaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaziaUITests.swift; sourceTree = "<group>"; };
+		7099BEF9245CBDB200DBEEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7099BECF245CBD9800DBEEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099BEE5245CBDB200DBEEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099BEF0245CBDB200DBEEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7099BEC9245CBD9700DBEEFF = {
+			isa = PBXGroup;
+			children = (
+				7099BED4245CBD9800DBEEFF /* Phazia */,
+				7099BEEB245CBDB200DBEEFF /* PhaziaTests */,
+				7099BEF6245CBDB200DBEEFF /* PhaziaUITests */,
+				7099BED3245CBD9800DBEEFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7099BED3245CBD9800DBEEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7099BED2245CBD9800DBEEFF /* Phazia.app */,
+				7099BEE8245CBDB200DBEEFF /* PhaziaTests.xctest */,
+				7099BEF3245CBDB200DBEEFF /* PhaziaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7099BED4245CBD9800DBEEFF /* Phazia */ = {
+			isa = PBXGroup;
+			children = (
+				7099BED5245CBD9800DBEEFF /* AppDelegate.swift */,
+				7099BED7245CBD9800DBEEFF /* SceneDelegate.swift */,
+				7099BED9245CBD9800DBEEFF /* ContentView.swift */,
+				7099BEDB245CBDB200DBEEFF /* Assets.xcassets */,
+				7099BEE0245CBDB200DBEEFF /* LaunchScreen.storyboard */,
+				7099BEE3245CBDB200DBEEFF /* Info.plist */,
+				7099BEDD245CBDB200DBEEFF /* Preview Content */,
+			);
+			path = Phazia;
+			sourceTree = "<group>";
+		};
+		7099BEDD245CBDB200DBEEFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7099BEDE245CBDB200DBEEFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7099BEEB245CBDB200DBEEFF /* PhaziaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7099BEEC245CBDB200DBEEFF /* PhaziaTests.swift */,
+				7099BEEE245CBDB200DBEEFF /* Info.plist */,
+			);
+			path = PhaziaTests;
+			sourceTree = "<group>";
+		};
+		7099BEF6245CBDB200DBEEFF /* PhaziaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7099BEF7245CBDB200DBEEFF /* PhaziaUITests.swift */,
+				7099BEF9245CBDB200DBEEFF /* Info.plist */,
+			);
+			path = PhaziaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7099BED1245CBD9800DBEEFF /* Phazia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7099BEFC245CBDB200DBEEFF /* Build configuration list for PBXNativeTarget "Phazia" */;
+			buildPhases = (
+				7099BECE245CBD9800DBEEFF /* Sources */,
+				7099BECF245CBD9800DBEEFF /* Frameworks */,
+				7099BED0245CBD9800DBEEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phazia;
+			productName = Phazia;
+			productReference = 7099BED2245CBD9800DBEEFF /* Phazia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7099BEE7245CBDB200DBEEFF /* PhaziaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7099BEFF245CBDB200DBEEFF /* Build configuration list for PBXNativeTarget "PhaziaTests" */;
+			buildPhases = (
+				7099BEE4245CBDB200DBEEFF /* Sources */,
+				7099BEE5245CBDB200DBEEFF /* Frameworks */,
+				7099BEE6245CBDB200DBEEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7099BEEA245CBDB200DBEEFF /* PBXTargetDependency */,
+			);
+			name = PhaziaTests;
+			productName = PhaziaTests;
+			productReference = 7099BEE8245CBDB200DBEEFF /* PhaziaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7099BEF2245CBDB200DBEEFF /* PhaziaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7099BF02245CBDB200DBEEFF /* Build configuration list for PBXNativeTarget "PhaziaUITests" */;
+			buildPhases = (
+				7099BEEF245CBDB200DBEEFF /* Sources */,
+				7099BEF0245CBDB200DBEEFF /* Frameworks */,
+				7099BEF1245CBDB200DBEEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7099BEF5245CBDB200DBEEFF /* PBXTargetDependency */,
+			);
+			name = PhaziaUITests;
+			productName = PhaziaUITests;
+			productReference = 7099BEF3245CBDB200DBEEFF /* PhaziaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7099BECA245CBD9700DBEEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Charan Sriram";
+				TargetAttributes = {
+					7099BED1245CBD9800DBEEFF = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					7099BEE7245CBDB200DBEEFF = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7099BED1245CBD9800DBEEFF;
+					};
+					7099BEF2245CBDB200DBEEFF = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7099BED1245CBD9800DBEEFF;
+					};
+				};
+			};
+			buildConfigurationList = 7099BECD245CBD9700DBEEFF /* Build configuration list for PBXProject "Phazia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7099BEC9245CBD9700DBEEFF;
+			productRefGroup = 7099BED3245CBD9800DBEEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7099BED1245CBD9800DBEEFF /* Phazia */,
+				7099BEE7245CBDB200DBEEFF /* PhaziaTests */,
+				7099BEF2245CBDB200DBEEFF /* PhaziaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7099BED0245CBD9800DBEEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7099BEE2245CBDB200DBEEFF /* LaunchScreen.storyboard in Resources */,
+				7099BEDF245CBDB200DBEEFF /* Preview Assets.xcassets in Resources */,
+				7099BEDC245CBDB200DBEEFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099BEE6245CBDB200DBEEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099BEF1245CBDB200DBEEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7099BECE245CBD9800DBEEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7099BED6245CBD9800DBEEFF /* AppDelegate.swift in Sources */,
+				7099BED8245CBD9800DBEEFF /* SceneDelegate.swift in Sources */,
+				7099BEDA245CBD9800DBEEFF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099BEE4245CBDB200DBEEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7099BEED245CBDB200DBEEFF /* PhaziaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099BEEF245CBDB200DBEEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7099BEF8245CBDB200DBEEFF /* PhaziaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7099BEEA245CBDB200DBEEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7099BED1245CBD9800DBEEFF /* Phazia */;
+			targetProxy = 7099BEE9245CBDB200DBEEFF /* PBXContainerItemProxy */;
+		};
+		7099BEF5245CBDB200DBEEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7099BED1245CBD9800DBEEFF /* Phazia */;
+			targetProxy = 7099BEF4245CBDB200DBEEFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7099BEE0245CBDB200DBEEFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7099BEE1245CBDB200DBEEFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7099BEFA245CBDB200DBEEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7099BEFB245CBDB200DBEEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7099BEFD245CBDB200DBEEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Phazia/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NY7LAU553;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Phazia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phaziadev.Phazia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7099BEFE245CBDB200DBEEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Phazia/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NY7LAU553;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Phazia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phaziadev.Phazia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7099BF00245CBDB200DBEEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NY7LAU553;
+				INFOPLIST_FILE = PhaziaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phaziadev.PhaziaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phazia.app/Phazia";
+			};
+			name = Debug;
+		};
+		7099BF01245CBDB200DBEEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NY7LAU553;
+				INFOPLIST_FILE = PhaziaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phaziadev.PhaziaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phazia.app/Phazia";
+			};
+			name = Release;
+		};
+		7099BF03245CBDB200DBEEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NY7LAU553;
+				INFOPLIST_FILE = PhaziaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phaziadev.PhaziaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Phazia;
+			};
+			name = Debug;
+		};
+		7099BF04245CBDB200DBEEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NY7LAU553;
+				INFOPLIST_FILE = PhaziaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phaziadev.PhaziaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Phazia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7099BECD245CBD9700DBEEFF /* Build configuration list for PBXProject "Phazia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7099BEFA245CBDB200DBEEFF /* Debug */,
+				7099BEFB245CBDB200DBEEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7099BEFC245CBDB200DBEEFF /* Build configuration list for PBXNativeTarget "Phazia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7099BEFD245CBDB200DBEEFF /* Debug */,
+				7099BEFE245CBDB200DBEEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7099BEFF245CBDB200DBEEFF /* Build configuration list for PBXNativeTarget "PhaziaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7099BF00245CBDB200DBEEFF /* Debug */,
+				7099BF01245CBDB200DBEEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7099BF02245CBDB200DBEEFF /* Build configuration list for PBXNativeTarget "PhaziaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7099BF03245CBDB200DBEEFF /* Debug */,
+				7099BF04245CBDB200DBEEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7099BECA245CBD9700DBEEFF /* Project object */;
+}
